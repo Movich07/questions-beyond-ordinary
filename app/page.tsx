@@ -15,13 +15,13 @@ export default function Home() {
         </div>
         <nav>
           <a href="#" className="current">Home</a>
-          <a href="#">Ideas</a>
-          <a href="#">People</a>
-          <a href="#">Society</a>
-          <a href="#">Universe</a>
-          <a href="#">Stories</a>
-          <a href="#">About</a>
-        </nav>
+          <Link href="/ideas">Ideas</Link>
+          <Link href="/people">People</Link>
+          <Link href="/society">Society</Link>
+          <Link href="/universe">Universe</Link>
+          <Link href="/stories">Stories</Link>
+          <Link href="/about">About</Link>
+      </nav>
       </header>
 
       <section className="wrap hero">

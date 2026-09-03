@@ -14,11 +14,11 @@ export default function About() {
         </div>
         <nav>
           <Link href="/">Home</Link>
-          <a href="#">Ideas</a>
-          <a href="#">People</a>
-          <a href="#">Society</a>
-          <a href="#">Universe</a>
-          <a href="#">Stories</a>
+          <Link href="/ideas">Ideas</Link>
+          <Link href="/people">People</Link>
+          <Link href="/society">Society</Link>
+          <Link href="/universe">Universe</Link>
+          <Link href="/stories">Stories</Link>
           <a href="#" className="current">About</a>
         </nav>
       </header>
